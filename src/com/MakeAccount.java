@@ -11,7 +11,7 @@ public  class MakeAccount {
 
     public static String AccountName() {
 
-        int rand = 20 + (int)(Math.random() * 100);
+        int rand = 10 + (int)(Math.random() * 100);
 
         Scanner input = new Scanner(System.in);
 
