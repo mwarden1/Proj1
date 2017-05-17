@@ -9,7 +9,7 @@ public class Sales {
     Scanner input1 = new Scanner(System.in);
 
 
-    public static void ManagerSales(){
+    public static void EmployeeSales(){
 
         Scanner input = new Scanner(System.in);
 

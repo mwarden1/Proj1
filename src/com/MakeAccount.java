@@ -55,35 +55,4 @@ public  class MakeAccount {
 
 
 
-    public static double Hours(){
-
-        Scanner input = new Scanner(System.in);
-
-
-        System.out.println("Enter how many hours you worked: ");
-        double hours = input.nextDouble();
-        System.out.println(hours);
-
-        System.out.println("Enter your payrate: ");
-        double payrate = input.nextDouble();
-        System.out.println(payrate);
-
-        final double TAX = 0.06f;
-
-        double grosspay = hours*payrate;
-        double netPay = grosspay-(TAX*grosspay);
-
-        System.out.println("Your grosspay is " + grosspay + " and your netpay is " + netPay);
-
-
-        return hours + payrate;
-
-
-    }
-
-
-
-    public static double grosspayData(double grosspay){
-        return  grosspay;
-    }
 }
