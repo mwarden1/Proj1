@@ -5,8 +5,20 @@ import java.util.Scanner;
 /**
  * Created by adakuuchendu on 4/18/17.
  */
+
+import java.util.Date;
+
 public  class MakeAccount {
 
+
+    public static String AccountName(String dat){
+
+        java.util.Date date = new java.util.Date();
+        System.out.println(date.toString());
+
+        return null;
+
+    }
 
 
     public static String AccountName() {

@@ -3,6 +3,7 @@ package com.company;
 import com.MakeAccount;
 import com.Sales;
 import com.Hours;
+//import com.Comm;
 
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
 
         MakeAccount make = new MakeAccount();
 
+        make.AccountName("Hello");
         make.AccountName();
 
         Sales sales = new Sales();
