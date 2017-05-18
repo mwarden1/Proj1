@@ -7,14 +7,13 @@ import java.util.Scanner;
  */
 public class Hours {
 
-    public static double netpay;
 
-    public static double Time(){
+    public double Time(){
 
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Enter how many hours you worked: ");
+        System.out.println("Enter how many hours did you work this week: ");
         double hours = input.nextDouble();
         System.out.println(hours);
 
@@ -27,18 +26,15 @@ public class Hours {
         double grosspay = hours*payrate;
         double netPay = grosspay-(TAX*grosspay);
 
-        System.out.println("Your grosspay is " + grosspay + " and your netpay is " + netPay);
+        System.out.println("Your grosspay is " + grosspay + " and your netpay is " + netPay + " for the week");
 
-
-        return hours + payrate;
-
-
-    }
-
-
-
-    public static double getnetpay(double netPay)
-    {
         return netPay;
+
+
     }
+
+
+
+
+
 }

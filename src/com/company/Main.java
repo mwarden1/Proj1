@@ -1,6 +1,7 @@
 package com.company;
 
 import com.MakeAccount;
+import com.Pay;
 import com.Sales;
 import com.Hours;
 //import com.Comm;
@@ -11,23 +12,25 @@ public class Main {
     public static void main(String[] args) {
 
         MakeAccount make = new MakeAccount();
-
-        make.AccountName("Hello");
+        System.out.println("  ");
         make.AccountName();
 
-        Sales sales = new Sales();
-
-        sales.EmployeeSales();
 
         Hours hours = new Hours();
-        hours.Time();
+        double netPay = hours.Time();
+
+
+        Sales sales = new Sales();
+        double sale = sales.EmployeeSales();
+
 
         Comm comm = new Comm();
 
 
+        Pay getPay = new Pay();
+        getPay.getValue(netPay, sale);
 
 
-//make.grosspayData(12.6);
 
     }
 }

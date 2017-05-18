@@ -6,20 +6,18 @@ import java.util.Scanner;
  * Created by adakuuchendu on 4/18/17.
  */
 
-import java.util.Date;
+public class MakeAccount {
 
-public  class MakeAccount {
+    String name1;
+    String name2;
 
 
-    public static String AccountName(String dat){
+    public MakeAccount(){
 
         java.util.Date date = new java.util.Date();
-        System.out.println(date.toString());
-
-        return null;
+        System.out.println("The date and time is " + date.toString());
 
     }
-
 
     public static String AccountName() {
 
@@ -40,15 +38,13 @@ public  class MakeAccount {
 
         System.out.println("Enter your age: ");
         String age = input.next();
-        System.out.println(age);
 
         System.out.println("Enter your date of birth: ");
         String birth = input.next();
         System.out.println(birth);
 
         System.out.println("Enter your 8 digit Social Security Number: ");
-        double SSN = input.nextDouble();
-
+        String SSN = input.next();
 
         System.out.print(name1 + " " + name2 + " your password for your Account is: ");
         System.out.print(newname1.charAt(len1));
@@ -60,7 +56,7 @@ public  class MakeAccount {
         System.out.println("  ");
 
 
-        return name1 + name2 + age + birth + SSN;
+        return name1 + name2 ;
 
 
     }

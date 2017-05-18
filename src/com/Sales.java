@@ -9,16 +9,16 @@ public class Sales {
     Scanner input1 = new Scanner(System.in);
 
 
-    public static void EmployeeSales(){
+    public double EmployeeSales(){
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Did you make any sales this week? ");
-        System.out.println("Enter 1 for yes and 0 for no: ");
-        String ans = input.next();
+        System.out.println("Enter 1 for yes and any number other integer for no: ");
+        int ans = input.nextInt();
+        double total = 0;
 
-
-        switch(1){
+        switch(ans){
 
             case 1:
                 int[] myList = new int[7];
@@ -37,7 +37,7 @@ public class Sales {
                 System.out.println("--------------------");
 
 
-                double total = 0;
+
 
                 for (int i = 0; i < myList.length; i++) {
                     int num = i + 1;
@@ -49,13 +49,22 @@ public class Sales {
 
                 break;
 
+            case 0:
+                System.out.println(" ");
+                break;
+
             default:
-                System.out.println(" nothing ");
+                if (ans != 1 & ans != 0) {
+                    System.out.println("Error should have, therefore: ");
+                    break;
+                }
 
+        }
 
+        return total;
 
+    }
 
-        }}
 
 
     //MakeAccount myaccount=new MakeAccount();
