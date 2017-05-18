@@ -13,7 +13,8 @@ public class Main {
 
 
         MakeAccount make = new MakeAccount();
-        System.out.println("  ");
+        make.AccountName("Hello");
+        System.out.println("  ");;
         make.AccountName();
 
 

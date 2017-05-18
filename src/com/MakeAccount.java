@@ -9,12 +9,14 @@ import java.util.Scanner;
 
 public class MakeAccount {
 
-    public MakeAccount(){
+    public String AccountName(String dat){
 
         //This constructor gets and prints the date for the day
 
         java.util.Date date = new java.util.Date();
         System.out.println("The date and time is: " + date.toString());
+
+        return null;
 
     }
 
