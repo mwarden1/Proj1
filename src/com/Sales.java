@@ -24,7 +24,7 @@ public class Sales {
                 for (int i = 0; i < myList.length; i++) {
 
                     int num = i + 1;
-                    System.out.print(" Enter the sales for the Day " + num + ": ");
+                    System.out.print("Enter the sales for the Day " + num + ": ");
                     myList[i] = input.nextInt();
                 }
 

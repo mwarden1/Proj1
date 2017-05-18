@@ -40,21 +40,14 @@ public class MakeAccount {
         System.out.println("Enter your age: ");
         String age = input.next();
 
-        System.out.println("Enter your date of birth: ");
+        System.out.println("Enter your date of birth (month/day/year): ");
         String birth = input.next();
-        System.out.println(birth);
 
         System.out.println("Enter your 8 digit Social Security Number: ");
         String SSN = input.next();
 
-        System.out.println("Enter your full street address: ");
+        System.out.println("Enter your full street address with zipcode: ");
         String street = input.next();
-
-        System.out.println("Enter your city: ");
-        String city = input.next();
-
-        System.out.println("Enter your Zipcode: ");
-        String zip = input.next();
 
         System.out.print(name1 + " " + name2 + " your password for your Account is: ");
         System.out.print(newname1.charAt(len1));
