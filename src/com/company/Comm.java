@@ -9,6 +9,7 @@ public class Comm {
 
 
     public Comm() {
+        //This contructor was created for the sole purpose of being inherited
         double result;
 
     }

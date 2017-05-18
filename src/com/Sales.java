@@ -6,8 +6,6 @@ import java.util.Scanner;
  */
 public class Sales {
 
-    Scanner input1 = new Scanner(System.in);
-
 
     public double EmployeeSales(){
 
@@ -18,7 +16,7 @@ public class Sales {
         int ans = input.nextInt();
         double total = 0;
 
-        switch(ans){
+        switch(ans){ //This is a switch statement used to make sure the user either sold the week or not
 
             case 1:
                 int[] myList = new int[7];
@@ -28,22 +26,18 @@ public class Sales {
                     int num = i + 1;
                     System.out.print(" Enter the sales for the Day " + num + ": ");
                     myList[i] = input.nextInt();
-
                 }
 
                 System.out.println(" ");
-
                 System.out.println("\n Sales for 7 days");
                 System.out.println("--------------------");
-
-
-
 
                 for (int i = 0; i < myList.length; i++) {
                     int num = i + 1;
                     System.out.println("Day " + num + " sales "+ myList[i]);
                     total += myList[i];
                 }
+
                 System.out.println(" ");
                 System.out.println("Total sales: " + total);
 
@@ -58,19 +52,9 @@ public class Sales {
                     System.out.println("Error should have, therefore: ");
                     break;
                 }
-
         }
 
         return total;
-
     }
-
-
-
-    //MakeAccount myaccount=new MakeAccount();
-    //myaccount.grosspayData(10.5)
-
-    //MakeAccount.
-
 
 }

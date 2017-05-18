@@ -6,13 +6,12 @@ import java.util.Scanner;
  * Created by adakuuchendu on 4/18/17.
  */
 
+
 public class MakeAccount {
 
-    String name1;
-    String name2;
-
-
     public MakeAccount(){
+
+        //This constructor gets and prints the date for the day
 
         java.util.Date date = new java.util.Date();
         System.out.println("The date and time is " + date.toString());
@@ -20,6 +19,8 @@ public class MakeAccount {
     }
 
     public static String AccountName() {
+
+        //This method asks the required questions needed to set up an account
 
         int rand = 10 + (int)(Math.random() * 100);
 
@@ -46,6 +47,15 @@ public class MakeAccount {
         System.out.println("Enter your 8 digit Social Security Number: ");
         String SSN = input.next();
 
+        System.out.println("Enter your full street address: ");
+        String street = input.next();
+
+        System.out.println("Enter your city: ");
+        String city = input.next();
+
+        System.out.println("Enter your Zipcode: ");
+        String zip = input.next();
+
         System.out.print(name1 + " " + name2 + " your password for your Account is: ");
         System.out.print(newname1.charAt(len1));
         System.out.print(rand);
@@ -60,7 +70,5 @@ public class MakeAccount {
 
 
     }
-
-
 
 }

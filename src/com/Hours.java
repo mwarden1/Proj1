@@ -10,8 +10,9 @@ public class Hours {
 
     public double Time(){
 
-        Scanner input = new Scanner(System.in);
+        //This class asks the required questions needed to obtain the pay for the user
 
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Enter how many hours did you work this week: ");
         double hours = input.nextDouble();

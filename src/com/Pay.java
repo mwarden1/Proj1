@@ -9,10 +9,12 @@ import java.util.Scanner;
  */
 
 public class Pay extends Comm {
+    //This class extends from the Comm class
 
     double result;
 
     public void getValue(double value, double sale){
+        //This method uses local variables created in the previous classes to obtain the final netpay for the user.
 
         final double percent = 0.05d;
         this.result = percent*sale + value;
