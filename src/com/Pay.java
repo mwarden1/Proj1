@@ -19,7 +19,7 @@ public class Pay extends Comm {
         final double percent = 0.05d;
         this.result = percent*sale + value;
 
-        System.out.println("Your final netpay is: " + result);
+        System.out.printf("Your final netpay is: %f \n",result);
         System.out.println("This is done by adding 5% of your sales to your previous netpay");
         System.out.println(" ");
         System.out.println("THANK YOU FOR USING OUR PAY ROLL SYSTEM");
