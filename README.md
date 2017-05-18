@@ -1,7 +1,6 @@
-We are creating a payroll system.
-There will be instructions for the user at the beginning so he or she will be to understand how the program works.
-If a user inserts an integer value when only string value is accepted an error message will occur, and vice versa.
-This will allow the user to submit correct and accurate information into the payroll system.
-There are different classes such as hourly rate, pay rate, commissions, number of hours worked, and employee name.
-These will allow for a unique receipt for each employee within the company.
-The employee will also be prompted to enter their address; including city, state, zip code and street address.
+We have created a payroll system. It takes user inputs such as name, age, social security number, 
+street address, zip code and gives a password to make an account. Then, once you have made the account, 
+it would ask you for your week hours and payrate and then prints out your gross and net pay. 
+Net pay is the pay that has add the required taxes deducted from it. After this the user will need to 
+input the total of the daily sales made and from this he/she obtains the final net pay. 
+This is the day that has added a percentage of the users total week sales to the previous net pay.
