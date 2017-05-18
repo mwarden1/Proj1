@@ -1,15 +1,16 @@
 package com.company;
 
-import com.MakeAccount;
-import com.Pay;
-import com.Sales;
-import com.Hours;
-//import com.Comm;
+import com.*;
 
 
 public class Main {
 
     public static void main(String[] args) {
+
+        Instructions inst = new Instructions();
+        inst.Instrut();
+        System.out.println("  ");
+
 
         MakeAccount make = new MakeAccount();
         System.out.println("  ");

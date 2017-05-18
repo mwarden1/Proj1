@@ -21,6 +21,8 @@ public class Pay extends Comm {
 
         System.out.println("Your final netpay is: " + result);
         System.out.println("This is done by adding 5% of your sales to your previous netpay");
+        System.out.println(" ");
+        System.out.println("THANK YOU FOR USING OUR PAY ROLL SYSTEM");
 
 
     }

@@ -14,7 +14,7 @@ public class MakeAccount {
         //This constructor gets and prints the date for the day
 
         java.util.Date date = new java.util.Date();
-        System.out.println("The date and time is " + date.toString());
+        System.out.println("The date and time is: " + date.toString());
 
     }
 
@@ -22,7 +22,7 @@ public class MakeAccount {
 
         //This method asks the required questions needed to set up an account
 
-        int rand = 10 + (int)(Math.random() * 100);
+        int rand = 10 + (int) (Math.random() * 100);
 
         Scanner input = new Scanner(System.in);
 
@@ -30,7 +30,7 @@ public class MakeAccount {
         System.out.println("Enter your first name: ");
         String name1 = input.next();
         String newname1 = name1.toUpperCase();
-        int len1 = name1.length()-1;
+        int len1 = name1.length() - 1;
 
 
         System.out.println("Enter your last name: ");
